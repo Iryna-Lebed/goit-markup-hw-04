@@ -309,6 +309,14 @@ address {
     text-align: center;
   
 }
+
+.portfolio-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
 /* =============portfolio======== */
 
 .our-portfolio {
