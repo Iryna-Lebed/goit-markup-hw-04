@@ -395,10 +395,32 @@ address {
     margin-bottom: 32px;
 }
 
+.portfolio-imeges-conteiner{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-imeges-text{
+    font-weight: 400;
+    font-size: 16px;
+    
+    // line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px 164px;
+    background: #4d5ae5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+
+}
+
 .portfolio-contant {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
-    border-top: none;
+    border--top: none;
 
 }
 
