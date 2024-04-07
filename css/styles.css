@@ -286,6 +286,7 @@ address {
     display: flex;
     gap: 24px;
     background-color: #F4F4FD;
+    
 }
 
 .team-title {
@@ -403,6 +404,9 @@ address {
     left: 0;
     transform: translateY(100%);
 
+}
+.portfolio-imeges-text:hover{
+    transform: translateY(0%);
 }
 
 .portfolio-contant {
