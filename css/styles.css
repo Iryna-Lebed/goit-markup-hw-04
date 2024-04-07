@@ -453,14 +453,6 @@ address {
     
 }
 
-.portfolio-imeges-text:hover{
-    transform: translateY(0%);
-}
-
-.portfolio-item:hover{
-    transform: translateY(0%);
-}
-
 .portfolio-subtitle {
     
     font-weight: 500;
