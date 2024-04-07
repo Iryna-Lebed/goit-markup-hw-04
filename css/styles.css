@@ -468,7 +468,7 @@ address {
 /* =========foter========= */
 
 
-.footer{
+.footer-container{
     background: #2e2f42;
     display: flex;
     padding: 100px 0;
