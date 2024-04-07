@@ -233,7 +233,7 @@ address {
 
 /* ============categories======== */
 .categories {
-    padding: 120px 0 
+    padding: 120px 0;
 }
 
 .categories-subtitle {
@@ -262,13 +262,9 @@ address {
     margin-bottom: 8px;
 }
 
-.categories-icon {
-    
-}
-
 .categories-item {
    width: calc((100% - 3 * 24px) / 4);
-   padding: 28px 23;
+   padding: 28px 23px;
 }
 
 .categories-text {
@@ -281,14 +277,15 @@ address {
 
 /* ===============team========== */
 .team {
-    background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
+    padding: 120px 0;
+    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -334,6 +331,11 @@ address {
 
 .team-icon{
     fill: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
     
 }
 
@@ -369,14 +371,6 @@ address {
     color: #434455;
     text-align: center;
   
-}
-
-.portfolio-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 24px;
 }
 /* =============portfolio======== */
 
@@ -428,7 +422,6 @@ address {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    
 }
 
 .portfolio-list {
@@ -441,6 +434,7 @@ address {
 
 .portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
+    
 }
 
 .portfolio-subtitle {
@@ -460,8 +454,6 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-
 /* =========foter========= */
 
 
