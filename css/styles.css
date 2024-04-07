@@ -44,7 +44,7 @@ image {
   }
   .container {
   
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -73,8 +73,6 @@ address {
 /* ===========header========== */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -82,7 +80,8 @@ address {
 
 .header-container {
     display: flex;
-    width: 1158px;
+   
+    align-items: center;
 }
 
 .header-navigatoin {
@@ -113,12 +112,12 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0
 }
 
 .header-menu-list a:hover,
@@ -149,12 +148,12 @@ address {
 }
 
 .contacts {
-    display: flex;
+ 
     font-style: normal;
-    padding: 24px 0;
+   
 }
 
-.con3 tacts-list {
+.contacts-list {
     display: flex;
     gap: 40px;
 }
@@ -175,11 +174,11 @@ address {
 
 /* =========hero============= */
 .hero {
-    margin-bottom: 120px;    
+     
     background-color: #2e2f42;
     padding: 188px 0;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    box-shadow:  rgba(46, 47, 66, 0.7);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -230,8 +229,6 @@ address {
 
 /* ============categories======== */
 .categories {
-    margin-bottom: 120px;
-    margin-top: 120px;
     padding: 120px 0 
 }
 
@@ -262,14 +259,7 @@ address {
 }
 
 .categories-icon {
-    margin: 0 auto;
-    display: block;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    padding: 24px 100px;
+    
 }
 
 .categories-item {
@@ -404,7 +394,7 @@ address {
     font-weight: 400;
     font-size: 16px;
     
-    // line-height: 24px; 
+    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
@@ -420,7 +410,7 @@ address {
 .portfolio-contant {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
-    border--top: none;
+    border-top: none;
 
 }
 
@@ -509,7 +499,7 @@ address {
     font-weight: 500;
     font-size: 16px;
     
-    // line-height: 24px; 
+    line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF ;
